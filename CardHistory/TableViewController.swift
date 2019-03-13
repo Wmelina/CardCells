@@ -13,8 +13,8 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = UITableView.automaticDimension
-        //tableView.register(CardHistoryViewCell.self, forCellReuseIdentifier: "cell")
-        tableView.register(CardViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(CardHistoryViewCell.self, forCellReuseIdentifier: "cell")
+        //tableView.register(AdditionalCardViewCell.self, forCellReuseIdentifier: "cell")
 
     }
 
@@ -26,16 +26,16 @@ class TableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CardHistoryViewCell
-//        cell.cardNumberLabel.text = "5647 **** **** 1234"
-//        cell.commentLabel.text = "Some text here some text here"
-//        cell.dateLabel.text = "10 April"
-//        cell.moneyLabel.text = "+ 5 000 $"
-//        cell.color = .Green
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CardViewCell
-        cell.cardImageView.image = UIImage.init(named: "icon_mastercard")
-        cell.cardNumberLabel.text = "1234 **** **** 5432"
-        cell.dateLabel.text = "05/22"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CardHistoryViewCell
+        cell.cardNumberLabel.text = "5647 **** **** 1234"
+        cell.commentLabel.text = "Some text here some text here"
+        cell.dateLabel.text = "10 April"
+        cell.moneyLabel.text = "+ 5 000 $"
+        cell.color = .Green
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! AdditionalCardViewCell
+//        cell.cardImageView.image = UIImage.init(named: "icon_mastercard")
+//        cell.cardNumberLabel.text = "1234 **** **** 5432"
+//        cell.dateLabel.text = "05/22"
         return cell
     }
  

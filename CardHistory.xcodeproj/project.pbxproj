@@ -15,7 +15,7 @@
 		11B1106022390431009B11D6 /* CardHistoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1105F22390431009B11D6 /* CardHistoryUITests.swift */; };
 		11B1106E2239049B009B11D6 /* CardHistoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1106D2239049B009B11D6 /* CardHistoryViewCell.swift */; };
 		11B11070223905EB009B11D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1106F223905EB009B11D6 /* TableViewController.swift */; };
-		11B1107222390B2A009B11D6 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1107122390B2A009B11D6 /* CardViewCell.swift */; };
+		11B1107222390B2A009B11D6 /* AdditionalCardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1107122390B2A009B11D6 /* AdditionalCardViewCell.swift */; };
 		78CA79D977E56359452B6F9F /* Pods_CardHistory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF106E988D8F1EA849AF8128 /* Pods_CardHistory.framework */; };
 		8736DCE9A20F547E85B28A3F /* Pods_CardHistoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5627C2CCBFB977D0BEC7E9A /* Pods_CardHistoryUITests.framework */; };
 		8BDADD8AA19E48BECEB358ED /* Pods_CardHistoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C06D541FCAFD9ADFF86F725 /* Pods_CardHistoryTests.framework */; };
@@ -54,7 +54,7 @@
 		11B1106122390431009B11D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11B1106D2239049B009B11D6 /* CardHistoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHistoryViewCell.swift; sourceTree = "<group>"; };
 		11B1106F223905EB009B11D6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		11B1107122390B2A009B11D6 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		11B1107122390B2A009B11D6 /* AdditionalCardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalCardViewCell.swift; sourceTree = "<group>"; };
 		3B05EE548E03467094EE314E /* Pods-CardHistoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardHistoryTests.debug.xcconfig"; path = "Target Support Files/Pods-CardHistoryTests/Pods-CardHistoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		41F10B4311333413C78B6A7F /* Pods-CardHistory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardHistory.release.xcconfig"; path = "Target Support Files/Pods-CardHistory/Pods-CardHistory.release.xcconfig"; sourceTree = "<group>"; };
 		6350558D82B5D6A4F0627B88 /* Pods-CardHistoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardHistoryTests.release.xcconfig"; path = "Target Support Files/Pods-CardHistoryTests/Pods-CardHistoryTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			children = (
 				11B1103F2239042F009B11D6 /* AppDelegate.swift */,
 				11B1106F223905EB009B11D6 /* TableViewController.swift */,
-				11B1107122390B2A009B11D6 /* CardViewCell.swift */,
+				11B1107122390B2A009B11D6 /* AdditionalCardViewCell.swift */,
 				11B1106D2239049B009B11D6 /* CardHistoryViewCell.swift */,
 				11B110432239042F009B11D6 /* Main.storyboard */,
 				11B1104622390431009B11D6 /* Assets.xcassets */,
@@ -399,7 +399,7 @@
 			files = (
 				11B1106E2239049B009B11D6 /* CardHistoryViewCell.swift in Sources */,
 				11B110402239042F009B11D6 /* AppDelegate.swift in Sources */,
-				11B1107222390B2A009B11D6 /* CardViewCell.swift in Sources */,
+				11B1107222390B2A009B11D6 /* AdditionalCardViewCell.swift in Sources */,
 				11B11070223905EB009B11D6 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class CardViewCell: UITableViewCell {
+class AdditionalCardViewCell: UITableViewCell {
 
     var mainView: UIView!
     var cardImageView: UIImageView!
@@ -54,10 +54,11 @@ class CardViewCell: UITableViewCell {
     }
     func configureConstraints() {
         mainView.snp.makeConstraints { (make) in
-            make.top.equalTo(10)
-            make.bottom.equalTo(-10)
-            make.left.equalTo(16)
-            make.right.equalTo(-16)
+            
+            make.topMargin.equalTo(10)
+            make.bottomMargin.equalTo(-10)
+            make.leftMargin.equalTo(16)
+            make.rightMargin.equalTo(-16)
         }
         
         cardImageView.snp.makeConstraints { (make) in
